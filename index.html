@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kalkulator procentów</title>
+</head>
+<body>
+    <div class="Kalkulator">
+        <h2>Kalkulator Procentów</h2>
+
+        <h3> Oblicz procent z liczby</h3>
+        <input type="number" id="liczba_baza" placeholder="Podaj liczbę">
+        <input type="number" id="procent" placeholder="Jaki procent">
+        <button onclick="obliczProcent()">Oblicz procent</button>
+        <div id="wynik1" class="wyniki">Wynik pojawi się tutaj...</div>
+        <br>
+    
+        <hr>
+        
+        <h3>Jakim procentem całości jest część</h3>
+        <input type="number" id="liczba_całość" placeholder="Podaj całość">
+        <input type="number" id="część" placeholder="Jaka część">
+        <button onclick="jakiToProcent()">Oblicz jaka to część liczby</button>
+        <div id="wynik2" class="wyniki">Wynik pojawi się tutaj...</div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
